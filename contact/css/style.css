@@ -1,0 +1,196 @@
+/* 標準フォント */
+body, table {
+  font: 14px 'Lucida Grande','Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','HiraKakuProN-W3',Verdana,'メイリオ','Meiryo','ＭＳ Ｐゴシック','MS PGothic',Osaka,arial,helvetica,sans-serif;
+  line-height: 1.75;
+  color: #888;
+}
+
+/* 高さを揃える */
+form {
+  margin: 0;
+  padding: 0;
+}
+input, select, button {
+  vertical-align: middle;
+}
+textarea {
+  vertical-align: bottom;
+}
+input[type="checkbox"], input[type="radio"] {
+  vertical-align: baseline;
+}
+label {
+  cursor: pointer;
+}
+p {
+  margin: 1em 0;
+}
+
+
+body {
+  background-color: #fff;
+  margin: 0;
+  text-align: center;
+}
+a:link {
+  color: #0088CC;
+  text-decoration: none;
+}
+a:visited {
+  color: #335566;
+  text-decoration: none;
+}
+a:hover {
+  color: #0088CC;
+  text-decoration: underline;
+}
+a:active {
+  color: #22AAFF;
+  text-decoration: underline;
+}
+p a:link {
+  text-decoration: underline;
+}
+p a:visited {
+  text-decoration: none;
+}
+p a:hover {
+  text-decoration: underline;
+}
+p a:active {
+  text-decoration: underline;
+}
+
+div#content {
+  width: 760px;
+  margin: 40px auto;
+  text-align: left;
+  _height: 0;
+}
+
+div#main h1 {
+  margin: 25px 0;
+  font-size: 33px;
+  color: #8fc31f;
+  font-weight: bold;
+  line-height: 1;
+  letter-spacing: 10px;
+}
+
+div#main table.field-table td.field-name strong:after {
+  content: "*";
+  color: red;
+}
+div#main table.field-table {
+  empty-cells: show;
+  background: transparent none;
+  border: none;
+  border-top: 1px #d6d6d6 solid;
+  empty-cells: show;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 1.5em auto;
+  padding: 0;
+  width: 100%;
+  _width: auto;
+}
+div#main table.field-table table {
+  margin: 0;
+}
+div#main table.field-table tr.tbody-end td.field-name,
+div#main table.field-table tr.tbody-end td.field {
+  padding: 8px 14px;
+}
+div#main table.field-table tr.tbody-start td.field-name,
+div#main table.field-table tr.tbody-start td.field {
+  padding: 8px 14px;
+}
+div#main table.field-table td.field-name {
+  background: #f6f6f6 none;
+  border-left: 1px #d6d6d6 solid;
+  border-bottom: 1px #d6d6d6 solid;
+  padding: 8px 14px;
+  vertical-align: middle;
+  white-space: nowrap;
+  text-align: left;
+}
+div#main table.field-table td.field {
+  background: #fff none;
+  border: none;
+  border-right: 1px #d6d6d6 solid;
+  border-bottom: 1px #d6d6d6 solid;
+  padding: 8px 14px;
+  vertical-align: middle;
+  text-align: left;
+}
+div#main table.field-table td.field p {
+  max-width: 540px;
+}
+div#main table.field-table td.field ol {
+  margin: 0;
+}
+div#main table.field-table td.submit-box {
+  padding-top: 10px;
+  text-align: center;
+}
+p.submit-box {
+  margin: 1em auto;
+  text-align: center;
+}
+.submit-box input[type="submit"] {
+  background-color: #f8f8f8;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#eeeeee));
+  background-image: -webkit-linear-gradient(top, #ffffff, #eeeeee);
+  background-image: -moz-linear-gradient(top, #ffffff, #eeeeee);
+  background-image: -ms-linear-gradient(top, #ffffff, #eeeeee);
+  background-image: -o-linear-gradient(top, #ffffff, #eeeeee);
+  background-image: linear-gradient(top, #ffffff, #eeeeee);
+  border: 1px solid #ccc;
+  border-bottom: 1px solid #bbb;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  color: #333;
+  font-size: 1.3em;
+  font-weight: bold;
+  line-height: 1;
+  padding: 8px 0;
+  text-align: center;
+  text-shadow: 0 1px 0 #eee;
+  min-width: 150px;
+  _width: 150px;
+}
+.submit-box input[type="submit"]:hover {
+  background-color: #e8e8e8;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e8e8e8), to(#c8c8c8));
+  background-image: -webkit-linear-gradient(top, #e8e8e8, #c8c8c8);
+  background-image: -moz-linear-gradient(top, #e8e8e8, #c8c8c8);
+  background-image: -ms-linear-gradient(top, #e8e8e8, #c8c8c8);
+  background-image: -o-linear-gradient(top, #e8e8e8, #c8c8c8);
+  background-image: linear-gradient(top, #e8e8e8, #c8c8c8);
+  border: 1px solid #bbb;
+  border-bottom: 1px solid #999;
+  cursor: pointer;
+  text-shadow: 0 1px 0 #ddd;
+}
+.submit-box input[type="submit"]:active {
+  border: 1px solid #aaa;
+  border-bottom: 1px solid #888;
+  -webkit-box-shadow: inset 0 0 5px 2px #b8b8b8, 0 1px 0 0 #ffffff;
+  -moz-box-shadow: inset 0 0 5px 2px #b8b8b8, 0 1px 0 0 #ffffff;
+  -ms-box-shadow: inset 0 0 5px 2px #b8b8b8, 0 1px 0 0 #ffffff;
+  -o-box-shadow: inset 0 0 5px 2px #b8b8b8, 0 1px 0 0 #ffffff;
+  box-shadow: inset 0 0 5px 2px #b8b8b8, 0 1px 0 0 #ffffff;
+}
+
+/*for Webkit*/
+input::-webkit-input-placeholder {
+    color:    #ccc !important;
+}
+
+/*for Firefox*/
+input:-moz-placeholder {
+    color:    #ccc !important;
+}
