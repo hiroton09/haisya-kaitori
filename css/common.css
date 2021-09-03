@@ -1,0 +1,691 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	background: url(../img/common/bg-body.gif) repeat;
+}
+#wrapper {
+	background-image: url(../img/common/bg-wrap.png);
+	background-repeat: repeat-y;
+	background-position: center top;
+	width: 972px;
+	height:auto;
+	margin:0 auto;
+}
+#wrapper #wrapper-wrap {
+	width: 960px;
+	height:auto;
+	margin:0 auto;
+	position:relative;
+}
+#wrapper #header #summry {
+	float: right;
+	width: 390px;
+	margin-top: 20px;
+	height: 22px;
+	font-size:13px;
+}
+#summry li {
+	float: left;
+	width: auto;
+	background:url(../img/common/mark-summry.png) left center no-repeat;
+	padding: 2px 20px 0 22px;
+	height:18px;
+}
+#header {
+	background: url(../img/common/bg-header.png) repeat-x left top;
+	height:110px;
+	margin:auto;
+	width:960px;
+	position: relative;
+	margin-bottom:65px;
+}
+h1 {
+	padding: 0px 0 0 98px;
+	width: auto;
+	height: 74px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+#siteID {
+	background-image: url(../img/common/siteID.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	text-indent: -300em;
+	position:absolute;
+	left:20px;
+	top:20px;
+	width:333px;
+	height:91px;
+	z-index:1;
+}
+p#siteID a {
+	display:block;
+	width:333px;
+	height:91px;
+}
+/*		width: 350px;
+	height: 91px;
+z-index:1;
+	float:left;
+#siteID a {
+	display: block;
+	width:350px;
+	height:91px;
+}
+*/
+
+#tel-header{
+	float:right;
+	background:url(../img/common/text-tel.png) no-repeat left top;
+	width:249px;
+	height:57px;
+	text-indent:-300em;
+	margin-right:20px;
+	margin-top: 7px;
+}
+/* =====================================================================
+
+	 gNavi
+ 
+=======================================================================*/
+#gNavi {
+	clear:both;
+	height: 65px;
+	padding-right: 0px;
+	padding-left: 0px;
+	position: absolute;
+	width: 960px;
+	margin-top:-65px;
+}
+
+#gNavi li {
+	float:left;
+	margin: 0;
+	padding: 0;
+	position:relative;
+}
+#gNavi li a {
+	display: block;
+　　height: 65px;
+	text-indent: -300em;
+	background: url(../img/common/gNavi.png) 0px 0px;
+}
+#gNavi li.toForm a {
+	display: block;
+	height: 65px;
+	width: 160px;
+	background: url(../img/common/gNavi.png) 0px 0px;
+}
+#gNavi li.toForm a:hover {
+		background: url(../img/common/gNavi.png) 0px -65px;
+}
+#gNavi li.reason a {
+	display: block;
+	height: 65px;
+	width: 160px;
+	background: url(../img/common/gNavi.png) -160px 0px;
+}
+#gNavi li.reason a:hover {
+		background: url(../img/common/gNavi.png) -160px -65px;
+}
+#gNavi li.muryohaisha a {
+	display: block;
+	height: 65px;
+	width: 160px;
+	background: url(../img/common/gNavi.png) -320px 0px;
+}
+#gNavi li.muryohaisha a:hover {
+		background: url(../img/common/gNavi.png) -320px -65px;
+}
+#gNavi li.hitsuyoshorui a {
+	display: block;
+	height: 65px;
+	width: 160px;
+	background: url(../img/common/gNavi.png) -480px 0px;
+}
+#gNavi li.hitsuyoshorui a:hover {
+		background: url(../img/common/gNavi.png) -480px -65px;
+}
+#gNavi li.jisseki a {
+	display: block;
+	height: 65px;
+	width: 160px;
+	background: url(../img/common/gNavi.png) -640px 0px;
+}
+#gNavi li.jisseki a:hover {
+		background: url(../img/common/gNavi.png) -640px -65px;
+}
+#gNavi li.qa a {
+	display: block;
+	height: 65px;
+	width: 160px;
+	background: url(../img/common/gNavi.png) -800px 0px;
+}
+#gNavi li.qa a:hover {
+		background: url(../img/common/gNavi.png) -800px -65px;
+}
+/* =====================================================================
+
+	 
+ 
+=======================================================================*/
+
+#wrapper #wrapper-wrap #mImg {
+	background-image: url(../img/common/mImg-index.jpg);
+	clear: both;
+	height: 381px;
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 960px;
+	text-indent: -300em;
+	position:relative;
+}
+.img-naraNO1 img{
+	position: absolute;
+	height: 177px;
+	width: 181px;
+	top: 7px;
+	right: 8px;
+}
+/* =====================================================================
+
+	 content
+
+=======================================================================*/
+#content{
+	clear:both;
+	margin-bottom:70px;
+}
+#pankuzu {
+	height: 30px;
+	margin-bottom:0;
+	padding-top: 10px;
+}
+#main{
+	float:left;
+	width:660px;
+	margin-left:20px;
+}
+/* =====================================================================
+
+	 content #sideNavi
+ 
+=======================================================================*/
+#sideNavi{
+	float:right;
+	width:240px;
+	margin-right:20px;
+	margin-top: 40px;
+}
+
+#priceSystem .bg-cont-sideNavi dl dt {
+	background-image: url(../img/common/title-sideNavi-system.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	text-indent: -300em;
+	height: 52px;
+	width: 240px;
+}
+#sideNavi .bg-cont-sideNavi {
+	background-image: url(../img/common/bg-cont-sideNavi.png);
+	background-repeat: repeat-y;
+	background-position: left top;
+	height: auto;
+	width: 240px;
+}
+#sideNavi .bg-btm-sideNavi {
+	background-image: url(../img/common/bg-btm-sideNavi.png);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	height: auto;
+	width: 240px;
+	padding-bottom: 5px;
+	margin-bottom: 20px;
+}
+#sideNavi .bg-cont-sideNavi dl dd {
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 20px;
+	line-height:1.5;
+}
+#sideNavi dd.btn-kochira{
+	padding-bottom:20px;
+}
+#sideNavi dd.btn-kochira a{
+	background-image: url(../img/common/btn-sideNavi-system.png);
+	text-indent: -300em;
+	height: 34px;
+	width: 201px;
+	background-repeat: no-repeat;
+	background-position: left top;
+	display:block;
+}
+#sideNavi dd.btn-kochira a:hover{
+	background-image: url(../img/common/btn-sideNavi-system.png);
+	background-repeat: no-repeat;
+	background-position: left -34px;
+}
+#sideNavi #usedParts dl dt {
+	background-image: url(../img/common/title-sideNavi-used.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	text-indent: -300em;
+	height: 52px;
+	width: 240px;
+}
+#sideNavi .btn-sideNavi-old{
+	padding-bottom:20px;
+}
+#sideNavi .btn-sideNavi-old a{
+	background-image: url(../img/common/btn-sideNavi-old.png);
+	text-indent: -300em;
+	height: 46px;
+	width: 201px;
+	background-repeat: no-repeat;
+	background-position: left top;
+	display:block;
+}
+#sideNavi .btn-sideNavi-old a:hover{
+	background: url(../img/common/btn-sideNavi-old.png) no-repeat left -46px;
+}
+#sideNavi #receiveArea dl dt {
+	background-image: url(../img/common/title-sideNavi-area.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	text-indent: -300em;
+	height: 52px;
+	width: 240px;
+}
+#receiveArea dl dd {
+	padding-bottom: 20px;
+}
+#sideNavi #receiveArea .bg-cont-sideNavi dl {
+	background-image: url(../img/common/bg-sideNavi-areaImg.png);
+	background-repeat: no-repeat;
+	background-position: 68px bottom;
+}
+#sideNavi #inq {
+	background-image: url(../img/common/bg-sideNavi-inq.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 212px;
+	width: 240px;
+	text-indent: -300em;
+}
+#sideNavi #inq dl dd {
+	text-indent: -300em;
+}
+#sideNavi #inq .btn-toInq{
+}
+#sideNavi #inq .btn-toInq a{
+	background-image: url(../img/common/btn-sideNavi-inq.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 42px;
+	width: 202px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	display:block;
+	margin-top:100px;
+}
+#sideNavi #inq .btn-toInq a:hover{
+	background: url(../img/common/btn-sideNavi-inq.png) no-repeat left -42px;
+}
+#sideNavi #inq dl {
+	height: 150px;
+	width: 240px;
+}
+#sideNavi .sideBanner {
+	margin-top: 20px;
+}
+#sideNavi #priceCamp .bg-cont-sideNavi dl dt {
+	background-image: url(../img/common/title-sideNavi-camp.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	text-indent: -300em;
+	height: 52px;
+	width: 240px;
+}
+
+/* =====================================================================
+
+	 footer
+ 
+=======================================================================*/
+#footer {
+	clear:both;
+	background-image: url(../img/common/bg-footer.png);
+	background-repeat: repeat-x;
+	background-position: left top;
+	margin-top:99px;
+	position: relative;
+	height:208px;
+}
+
+#btn-footerPagetop {
+	height: 29px;
+	width: 156px;
+	margin-top: 1px;
+	position: absolute;
+	top: -29px;
+	right: 20px;
+}
+#siteID-foot {
+	position: absolute;
+	height: 104px;
+	width: 337px;
+	left: 40px;
+	top: 25px;
+}
+#siteID-foot a{
+	display:block;
+}
+#footer #companyAddress {
+	padding-left: 140px;
+	margin-left: 25px;
+	padding-top: 60px;
+}
+#footer ul {
+	float: right;
+	height: 150px;
+	width: 130px;
+	margin-top:25px;
+}
+#footer ul li {
+	background-image: url(../img/common/mark-footer.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	width: 130px;
+	padding-left: 12px;
+	line-height:2.4;
+}
+#footerID {
+	float: left;
+}
+#footer p#address {
+	clear: both;
+	background-image: url(../img/common/text-footer-copy.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	text-indent: -300em;
+	margin-top: 7px;
+}
+#gNavi ul {
+	clear: both;
+}
+/* =====================================================================
+
+	 index
+ 
+=======================================================================*/
+#index .section1 {
+	background-image: url(../img/common/bg-index-catch.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 336px;
+	position: relative;
+	margin-bottom: 30px;
+}
+#index .section1 h3 {
+	text-indent: -300em;
+}
+#index .section1 .img-naraNO1 {
+	position: absolute;
+	height: 158px;
+	width: 162px;
+	top: -20px;
+	right: -10px;
+}
+#index .section1Text {
+	height: auto;
+	width: 317px;
+	padding-top: 75px;
+	padding-left: 30px;
+	line-height: 1.5;
+}
+#index .section1 .btn-index-form a{
+	background-image: url(../img/common/btn-index-form.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 35px;
+	width: 305px;
+	text-indent: -300em;
+	margin-left: 30px;
+	margin-top: 30px;
+	display: block;
+}
+#index .section1 .btn-index-form a:hover{
+	background-image: url(../img/common/btn-index-form.png);
+	background-repeat: no-repeat;
+	background-position: left -35px;
+}
+.pinkBold {
+	font-weight: bold;
+	color: #e01b5d;
+}
+.grayBold {
+	font-weight: bold;
+}
+.bg-head-section {
+	background-image: url(../img/common/bg-head-contents.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: auto;
+	width: 660px;
+	padding-top: 18px;
+}
+.bg-btm-section {
+	background-image: url(../img/common/bg-btm-contents.png);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	height: auto;
+	width: 660px;
+	padding-bottom: 18px;
+	margin-bottom:30px;
+}
+.bg-cont-section {
+	background-image: url(../img/common/bg-cont-contents.png);
+	background-repeat: repeat-y;
+	background-position: left top;
+	height: auto;
+	width: 620px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+#index .section2 h3,#reason .section1 h3 {
+	background-image: url(../img/common/title-index-okyakusamani.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	text-indent: -300em;
+	height: 68px;
+	width: 660px;
+}
+#index .section3 h3 {
+	background-image: url(../img/common/title-index-recycle.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	text-indent: -300em;
+	height: 68px;
+	width: 660px;
+}
+.section2 ul li {
+	float: left;
+	width:140px;
+	margin-right:22px;
+}
+.section2 dt {
+	width: 140px;
+	margin-top: 34px;
+	height: 196px;
+	width: 139px;
+}
+.section2 dd {
+	line-height: 1.5;
+	margin-top: 10px;
+}
+.section2 .yorokobiPoint01 dl dt {
+	background-image: url(../img/common/img-index-okyakusamaniPoint01.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	text-indent: -300em;
+}
+.section2 .yorokobiPoint02 dl dt {
+	background-image: url(../img/common/img-index-okyakusamaniPoint02.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	text-indent: -300em;
+}
+.section2 .yorokobiPoint03 dl dt {
+	background-image: url(../img/common/img-index-okyakusamaniPoint03.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	text-indent: -300em;
+}
+.section2 .yorokobiPoint04 dl dt {
+	background-image: url(../img/common/img-index-okyakusamaniPoint04.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	text-indent: -300em;
+}
+.section2 .bg-cont-section {
+	position: relative;
+	height:480px;
+	width: 660px;
+}
+.section2 .img-yorokobiPoint {
+	background-image: url(../img/common/img-index-okyakusamani.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	text-indent: -300em;
+	height: 138px;
+	width: 574px;
+	position: absolute;
+	left: 20px;
+	bottom: -22px;
+	clear: both;
+}
+.section2 .btn-yorokobiPoint a{
+	background: url(../img/common/btn-index-reason.png) no-repeat left top;
+	text-indent: -300em;
+	height: 35px;
+	width: 193px;
+	position: absolute;
+	right: 60px;
+	bottom: 0px;
+	display: block;
+}
+.section2 .btn-yorokobiPoint a:hover{
+	background: url(../img/common/btn-index-reason.png) no-repeat left -35px;
+}
+.section3 ul li {
+	float: left;
+	width: 185px;
+	height: 307px;
+	margin: 20px 30px 0 0;
+}
+#btn-toForm-mitsumori a{
+	background-image: url(../img/common/btn-inq.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	text-indent: -300em;
+	height: 148px;
+	width: 664px;
+	margin-right: -4px;
+	clear: both;
+	display: block;
+}
+/*#btn-toForm-mitsumori a {
+	height: 148px;
+	width: 664px;
+}
+*/#btn-toForm-mitsumori a:hover {
+	background-image: url(../img/common/btn-inq.png);
+	background-repeat: no-repeat;
+	background-position: left -148px;
+}
+.section3 h4 {
+	background-image: url(../img/common/title-index-recycle02.png);
+	text-indent: -300em;
+	height: 46px;
+	width: 526px;
+	padding-top: 35px;
+	background-repeat: no-repeat;
+	background-position: left 35px;
+	margin-bottom: 24px;
+}
+.section3 p {
+	margin-bottom:0px;
+	padding-bottom:10px;
+}
+.section3 .text-recycle {
+	width: 360px;
+	padding-bottom: 20px;
+	margin-bottom: 0px;
+}
+.section3 .text-recycle2 {
+	width: 360px;
+	padding-bottom: 60px;
+	margin-bottom: 0px;
+}
+.section3 .bg-cont-section {
+	position: relative;
+	width: 660px;
+}
+.section3 .img-recycle {
+	position: absolute;
+	right: 60px;
+	bottom: 20px;
+}
+.section3 .btn-recycle a{
+	background-image: url(../img/common/btn-index-recycle.png);
+	text-indent: -300em;
+	height: 35px;
+	width: 284px;
+	background-repeat: no-repeat;
+	background-position: left top;
+	display:block;
+	position:absolute;
+	right:60px;
+	bottom:10px;
+	margin-bottom:0px;
+}
+.section3 .btn-recycle a:hover{
+	background-image: url(../img/common/btn-index-recycle.png);
+	background-repeat: no-repeat;
+	background-position: left -35px;
+}
+#sideNavi #priceParts .btn-kochira a{
+	background-image: url(../img/common/btn-sideNavi-parts.png);
+	text-indent: -300em;
+	height: 34px;
+	width: 201px;
+	background-repeat: no-repeat;
+	background-position: left top;
+	display:block;
+}
+#sideNavi #priceParts .btn-kochira a:hover{
+	background-image: url(../img/common/btn-sideNavi-parts.png);
+	background-repeat: no-repeat;
+	background-position: left -34px;
+}
+#sideNavi #priceParts dl {
+	background-image: url(../img/common/bg-sideNavi-parts.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 261px;
+	width: 240px;
+	margin-bottom: 20px;
+}
+#sideNavi #priceParts dl dt {
+	text-indent: -300em;
+	display:block;
+	padding-bottom:150px;
+}
+#sideNavi #priceParts dl dd {
+	padding-left:20px;
+	width:201px;
+	padding-bottom:10px;
+}
