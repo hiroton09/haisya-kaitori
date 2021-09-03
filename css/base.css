@@ -600,7 +600,11 @@ padding-bottom:25px;
 		flex-direction: column;
 	}
 	#footer ul li {
+		float: left !important;
+	}
+	#footer ul li {
 		width: unset !important;
+		margin-left: 20px !important;
 	}
 	/* footerListを左寄せ */
 	#footerList {
