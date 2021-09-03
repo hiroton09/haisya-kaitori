@@ -1,0 +1,81 @@
+body {
+	font			: 76%/1.6 "メイリオ", "ヒラギノ角ゴ Pro W3", Arial, Helvetica, Osaka, "ＭＳ Ｐゴシック", sans-serif; /* 12px */
+	color			: #4A1E1E;
+	/*letter-spacing	: 0.1em;*/
+}
+
+#headTxt {
+	padding-left	: 1em;
+	color			: #FFFFFF;
+}
+
+.px12 {
+	font-size: 12px;
+	line-height: 150%;
+	color: #666666;
+	padding: 3px 3px 3px 5px;
+}
+.dummy {
+	font-size: 12px;
+}
+a:link {
+	color: #FF6600;
+}
+a:visited {
+	color: #FF6600;
+}
+a:hover {
+	color: #336600;
+	text-decoration: none;
+}
+
+table#topcash{/*==========トップ持ち込みキャッシュバックの部分===========*/
+	border:3px double #13B369;
+	background-color:#F7FAA4;
+	width:326px;
+	color:#A30000;
+	font-weight:bold;
+	font-size:18px;
+	margin:5px 0 ;
+	}
+table#topcash td{
+	padding:20px;
+	}
+	
+ul#dw li{
+	padding:5px;
+	margin:0px 5px;
+	list-style:none;
+	display:inline;
+	background-color:#99CC33;
+	}
+ul#dw li a{
+	color:#000033;
+	}
+ul#dw li a:hover{
+	color:#006600;
+	}
+.infomation {
+	width:300px;
+	height:100px;
+	text-align:left;
+	font-size:12px;
+	overflow-y: scroll;
+	padding-top: 0;
+	padding-right: 10px;
+	padding-bottom: 0;
+	padding-left: 10px;
+}
+
+
+
+.required {
+	color		: #F83C36;
+}
+
+
+
+td.kaitori {
+	background: url(img/topic_08.gif) no-repeat 0px 0px;
+	line-height: 130%;
+}
